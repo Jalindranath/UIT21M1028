@@ -1,0 +1,84 @@
+/* General page styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light gray background for less strain */
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Filter section styling */
+.filter {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter input, .filter select {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Product list styling */
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list li:last-child {
+  border-bottom: none;
+}
+
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  background-color: #ddd;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #ccc;
+}
+
+.pagination .active {
+  font-weight: bold;
+  background-color: #bbb;
+}
